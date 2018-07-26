@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Components" time="22" tests="0" failures="2" errors="0">
+   <testsuite name="Components" tests="0" failures="2" errors="0" time="22" timestamp="2018-07-25 17:07:51" hostname="slk - WSLK1FFTRFW-23" id="Test Suites/Day 2/Components">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750\\1532518682794.png, C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750\\1532518693544.png"/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-23"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 51.0"/>
+         <property name="hostAddress" value="10.10.10.32"/>
+         <property name="sessionId" value="f4afb0c2-cb13-4ccc-ac30-58470e6889b1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Day 2/Test 6" classname="Test Cases/Day 2/Test 6" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)"/>
+         <system-out><![CDATA[2018-07-25 17:07:52 - [TEST_CASE][FAILED] - Test Cases/Day 2/Test 6: Test Cases/Day 2/Test 6 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+
+2018-07-25 17:07:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 17:08:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 17:08:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.seleniumeasy.com/test/' successfully
+
+2018-07-25 17:08:02 - [MESSAGE][PASSED] - Navigate to 'http://www.seleniumeasy.com/test/' successfully
+
+2018-07-25 17:08:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Input Forms' is clicked on
+
+2018-07-25 17:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Input Forms' is clicked on
+
+2018-07-25 17:08:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+
+2018-07-25 17:08:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750\\1532518682794.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-25 17:07:52 - [TEST_CASE][FAILED] - Test Cases/Day 2/Test 6: Test Cases/Day 2/Test 6 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day 2/Test 7" classname="Test Cases/Day 2/Test 7" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_JQuery Date Picker' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)"/>
+         <system-out><![CDATA[2018-07-25 17:08:03 - [TEST_CASE][FAILED] - Test Cases/Day 2/Test 7: Test Cases/Day 2/Test 7 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_JQuery Date Picker' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+
+2018-07-25 17:08:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 17:08:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-25 17:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 17:08:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.seleniumeasy.com/test/' successfully
+
+2018-07-25 17:08:13 - [MESSAGE][PASSED] - Navigate to 'http://www.seleniumeasy.com/test/' successfully
+
+2018-07-25 17:08:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Date pickers' is clicked on
+
+2018-07-25 17:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Date pickers' is clicked on
+
+2018-07-25 17:08:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_JQuery Date Picker' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+
+2018-07-25 17:08:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_JQuery Date Picker' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\Day 2\\Components\\20180725_170750\\1532518693544.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-25 17:08:03 - [TEST_CASE][FAILED] - Test Cases/Day 2/Test 7: Test Cases/Day 2/Test 7 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_JQuery Date Picker' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 17:07:51 - [TEST_SUITE][FAILED] - Components: Test Cases/Day 2/Test 6 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)]]></system-out>
+      <system-err><![CDATA[2018-07-25 17:07:51 - [TEST_SUITE][FAILED] - Components: Test Cases/Day 2/Test 6 FAILED because (of) Unable to click on object 'Object Repository/Page_Selenium Easy - Best Demo webs/a_Simple Form Demo' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 0 milliseconds)]]></system-err>
+   </testsuite>
+</testsuites>

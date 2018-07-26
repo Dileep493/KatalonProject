@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Components,Firefox 51.0,,2018-07-25 17:07:51,2018-07-25 17:08:14,22.572s,FAILED
+,,,,,,
+Test Cases/Day 2/Test 6,Firefox 51.0,,2018-07-25 17:07:52,2018-07-25 17:08:03,11.277s,FAILED
+openBrowser,Firefox 51.0,,2018-07-25 17:07:52,2018-07-25 17:08:00,8.071s,PASSED
+navigateToUrl,Firefox 51.0,,2018-07-25 17:08:00,2018-07-25 17:08:02,2.214s,PASSED
+click,Firefox 51.0,,2018-07-25 17:08:02,2018-07-25 17:08:02,0.171s,PASSED
+click,Firefox 51.0,,2018-07-25 17:08:02,2018-07-25 17:08:03,0.566s,FAILED
+,,,,,,
+Test Cases/Day 2/Test 7,Firefox 51.0,,2018-07-25 17:08:03,2018-07-25 17:08:14,10.765s,FAILED
+openBrowser,Firefox 51.0,,2018-07-25 17:08:03,2018-07-25 17:08:10,7.513s,PASSED
+navigateToUrl,Firefox 51.0,,2018-07-25 17:08:10,2018-07-25 17:08:13,2.391s,PASSED
+click,Firefox 51.0,,2018-07-25 17:08:13,2018-07-25 17:08:13,0.151s,PASSED
+click,Firefox 51.0,,2018-07-25 17:08:13,2018-07-25 17:08:14,0.584s,FAILED

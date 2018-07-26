@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM" time="44" tests="1" failures="1" errors="0">
+   <testsuite name="OrangeHRM" tests="1" failures="1" errors="0" time="44" timestamp="2018-07-24 16:29:51" hostname="slk - WSLK1FFTRFW-23" id="Test Suites/OrangeHRM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_162950"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_162950\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_162950\\1532430035378.png"/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-23"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.10.10.32"/>
+         <property name="sessionId" value="5121e4fd66d67bee773a5cee37c7eec7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM Login/Login - Orange HRM" classname="Test Cases/OrangeHRM Login/Login - Orange HRM" status="PASSED">
+         <system-out><![CDATA[2018-07-24 16:29:51 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM Login/Login - Orange HRM: Test Cases/OrangeHRM Login/Login - Orange HRM
+
+2018-07-24 16:29:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 16:29:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 16:29:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-07-24 16:29:59 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-07-24 16:29:59 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:29:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:29:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:29:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:29:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 16:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ValidateLinks/EditValues" classname="Test Cases/ValidateLinks/EditValues" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)"/>
+         <system-out><![CDATA[2018-07-24 16:30:02 - [TEST_CASE][FAILED] - Test Cases/ValidateLinks/EditValues: Test Cases/ValidateLinks/EditValues FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)
+
+2018-07-24 16:30:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:30:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:30:04 - [TEST_STEP][PASSED] - setText: Text 'raj' is set on object 'Object Repository/Page_OrangeHRM/input_empsearchemployee_nameem'
+
+2018-07-24 16:30:04 - [MESSAGE][PASSED] - Text 'raj' is set on object 'Object Repository/Page_OrangeHRM/input_empsearchemployee_nameem'
+
+2018-07-24 16:30:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)
+
+2018-07-24 16:30:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_162950\\1532430035378.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-24 16:30:02 - [TEST_CASE][FAILED] - Test Cases/ValidateLinks/EditValues: Test Cases/ValidateLinks/EditValues FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 16:29:51 - [TEST_SUITE][FAILED] - OrangeHRM: Test Cases/ValidateLinks/EditValues FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-24 16:29:51 - [TEST_SUITE][FAILED] - OrangeHRM: Test Cases/ValidateLinks/EditValues FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/li_Raj Its Now Or Never' located by 'By.xpath: //li[(text() = 'Raj Its Now Or Never' or . = 'Raj Its Now Or Never')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

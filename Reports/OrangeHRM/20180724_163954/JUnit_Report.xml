@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM" time="27" tests="2" failures="0" errors="0">
+   <testsuite name="OrangeHRM" tests="2" failures="0" errors="0" time="27" timestamp="2018-07-24 16:39:55" hostname="slk - WSLK1FFTRFW-23" id="Test Suites/OrangeHRM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_163954"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-23.058\\Katalon Studio\\Demo_SLK\\Reports\\OrangeHRM\\20180724_163954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-23"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 51.0"/>
+         <property name="hostAddress" value="10.10.10.32"/>
+         <property name="sessionId" value="e8ccd045-d308-49fb-bb0a-747391e6a5bd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM Login/Login - Orange HRM" classname="Test Cases/OrangeHRM Login/Login - Orange HRM" status="PASSED">
+         <system-out><![CDATA[2018-07-24 16:39:56 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM Login/Login - Orange HRM: Test Cases/OrangeHRM Login/Login - Orange HRM
+
+2018-07-24 16:39:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 16:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 16:40:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-07-24 16:40:09 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-07-24 16:40:09 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:40:09 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:40:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:40:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 16:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ValidateLinks/EditValues" classname="Test Cases/ValidateLinks/EditValues" status="PASSED">
+         <system-out><![CDATA[2018-07-24 16:40:12 - [TEST_CASE][PASSED] - Test Cases/ValidateLinks/EditValues: Test Cases/ValidateLinks/EditValues
+
+2018-07-24 16:40:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 16:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 16:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 16:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 16:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/img_ui-datepicker-trigger' is clicked on
+
+2018-07-24 16:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img_ui-datepicker-trigger' is clicked on
+
+2018-07-24 16:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_27' is clicked on
+
+2018-07-24 16:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_27' is clicked on
+
+2018-07-24 16:40:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '10' are selected in object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban'  using regular expression
+
+2018-07-24 16:40:18 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban'  using regular expression
+
+2018-07-24 16:40:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 16:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 16:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Dashboard' is clicked on
+
+2018-07-24 16:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Dashboard' is clicked on
+
+2018-07-24 16:40:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 16:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 16:39:55 - [TEST_SUITE][PASSED] - OrangeHRM: Test Cases/ValidateLinks/EditValues]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

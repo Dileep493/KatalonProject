@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OrangeHRM,Firefox 51.0,,2018-07-24 15:33:45,2018-07-24 15:34:04,19.175s,PASSED
+,,,,,,
+Test Cases/OrangeHRM Login/Login - Orange HRM,Firefox 51.0,,2018-07-24 15:33:45,2018-07-24 15:34:02,16.844s,PASSED
+openBrowser,Firefox 51.0,,2018-07-24 15:33:45,2018-07-24 15:33:54,8.511s,PASSED
+navigateToUrl,Firefox 51.0,,2018-07-24 15:33:54,2018-07-24 15:33:59,4.837s,PASSED
+setText,Firefox 51.0,,2018-07-24 15:33:59,2018-07-24 15:33:59,0.187s,PASSED
+setEncryptedText,Firefox 51.0,,2018-07-24 15:33:59,2018-07-24 15:33:59,0.632s,PASSED
+click,Firefox 51.0,,2018-07-24 15:33:59,2018-07-24 15:34:02,2.404s,PASSED
+,,,,,,
+Test Cases/ValidateLinks/ValidateLinks,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:04,2.045s,PASSED
+verifyElementPresent,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:02,0.034s,PASSED
+verifyElementPresent,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:02,0.034s,PASSED
+verifyElementPresent,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:02,0.031s,PASSED
+verifyElementPresent,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:02,0.017s,PASSED
+verifyElementPresent,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:02,0.033s,PASSED
+click,Firefox 51.0,,2018-07-24 15:34:02,2018-07-24 15:34:04,1.492s,PASSED
+closeBrowser,Firefox 51.0,,2018-07-24 15:34:04,2018-07-24 15:34:04,0.242s,PASSED
